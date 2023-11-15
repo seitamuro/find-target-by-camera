@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://delcc71j7exx6"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.927784, 0.373117, 0, -0.373117, 0.927784, 0, 1.06457, 1.73116)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Camera3D"]
